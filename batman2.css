@@ -1,0 +1,35 @@
+/* Variables */
+:root {
+    --primary-color: #ededed; /* Color primario */
+    --background-color: #333f42; /* Fondo azul claro */
+    --text-color: #f4f4f4; /* Color del texto principal */
+}
+
+/* Estilos globales */
+body {
+    background-color: var(--background-color); /* Fondo */
+    color: var(--primary-color); /* Texto */
+    font-family: Arial, sans-serif; /* Fuente */
+    margin: 20px; /* Márgenes */
+    display: flex; /* Flexbox para centrar */
+    flex-direction: column; /* Elementos en columna */
+    justify-content: flex-start; /* Alinea al principio */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilo para títulos */
+h1 {
+    font-size: 2em; /* Tamaño del título */
+    color: var(--text-color); /* Color del título */
+    margin-bottom: 20px; /* Separación con el texto */
+    text-align: center;
+}
+
+/* Estilo para párrafos */
+p {
+    font-size: 1.2em; /* Tamaño del texto adicional */
+    color: var(--primary-color); /* Color del texto */
+    text-align: center; /* Centrar texto */
+    margin: 0; /* Sin márgenes adicionales */
+}
